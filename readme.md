@@ -40,7 +40,7 @@ dotnet run
 
 📌 Clique na imagem abaixo para assistir ao vídeo no Youtube: <br>
 
-- [![Busca Binária](https://i9.ytimg.com/vi_webp/WcOsbAzmtbk/mq1.webp?sqp=CLTdhcUG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE0gUyhlMA8=&rs=AOn4CLDsH7rEyj674BrDy951g-kwpHYkZA)](https://www.youtube.com/watch?v=WcOsbAzmtbk)
+- [![Busca Binária](https://i9.ytimg.com/vi_webp/WcOsbAzmtbk/mq1.webp?sqp=CIzDh8UG-oaymwEmCMACELQB8quKqQMa8AEB-AH-CYAC0AWKAgwIABABGE0gUyhlMA8=&rs=AOn4CLASSBy6cub1G_AZDE1xBYAHqHhaeg)](https://www.youtube.com/watch?v=WcOsbAzmtbk)
 
 Antes de rodar o exemplo, verificar se está em outra pasta, caso sim, digite no terminal:
 
