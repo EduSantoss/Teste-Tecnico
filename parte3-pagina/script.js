@@ -13,9 +13,18 @@ form.addEventListener("submit", (e) => {
   const nome = nomeInput.value.trim();
   const email = emailInput.value.trim();
 
-  // Validação //
+  // Validação de campos vazios //
   if (!nome || !email) {
     errorDiv.textContent = "⚠️ Preencha todos os campos!";
+    return;
+  }
+
+  // Validação do nome - apenas letras, maiúsculas e minúsculas //
+  const nomeRegex = /^[A-Za-zÀ-ÖØ-öø-ÿ\s]+$/;
+
+  if (!nomeRegex.test(nome)) {
+    errorDiv.textContent =
+      "⚠️ O nome deve conter apenas letras, sem números ou símbolos !";
     return;
   }
 
@@ -24,12 +33,19 @@ form.addEventListener("submit", (e) => {
     return;
   }
 
+  // Verificação de email existente //
+  const emailExiste = inscritos.some((pessoa) => pessoa.email === email);
+  if (emailExiste) {
+    errorDiv.textContent = "⚠️ Este e-mail já foi cadastrado!";
+    return;
+  }
+
   inscritos.push({ nome, email });
 
-  // Atualizar lista na tela
+  // Atualizar lista na tela //
   renderLista();
 
-  // Limpar os campos
+  // Limpar os campos //
   nomeInput.value = "";
   emailInput.value = "";
 });

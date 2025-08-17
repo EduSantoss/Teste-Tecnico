@@ -7,25 +7,34 @@
 }
 
 body {
-  background: #f0f6ff; 
+  background: #fff; 
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
+  background: url(./assets/img/Background-tecnico-Even3.png) no-repeat center center;
+  background-size: cover;
+}
+
+header .logo {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+  width: 120px;
 }
 
 .container {
   background: #fff;
   padding: 2rem;
   border-radius: 12px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
   width: 100%;
   max-width: 400px;
 }
 
 h2 {
   text-align: center;
-  color: #2a5d9f;
+  color: #091F2F;
   margin-bottom: 1.5rem;
 }
 
@@ -37,11 +46,12 @@ label {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: bold;
-  color: #333;
+  color: #091F2F;
 }
 
 input {
   width: 100%;
+  color: #091F2F;
   padding: 0.6rem;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -50,13 +60,13 @@ input {
 }
 
 input:focus {
-  border: 1px solid #2a5d9f;
+  border: 1px solid #288BE4;
 }
 
 button {
   width: 100%;
-  background: #2a5d9f;
-  color: white;
+  background:#288BE4;
+  color: #fff;
   padding: 0.7rem;
   border: none;
   border-radius: 8px;
@@ -66,7 +76,7 @@ button {
 }
 
 button:hover {
-  background: #1e4373;
+  background: #51ACFF;
 }
 
 .error {
@@ -80,7 +90,7 @@ button:hover {
 }
 
 .list h3 {
-  color: #2a5d9f;
+  color: #091F2F;
   margin-bottom: 1rem;
 }
 
@@ -89,9 +99,10 @@ ul {
 }
 
 ul li {
-  background: #f5f9ff;
+  background: #F2F2F2;
+  color: #091F2F;
   padding: 0.8rem;
   border-radius: 6px;
   margin-bottom: 0.5rem;
-  border: 1px solid #e1eaff;
+  border: 1px solid #D2D2D2;
 }
