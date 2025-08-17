@@ -8,6 +8,12 @@
 
 - Código preparado para aceitar strings não vazias;
 
+📌 Resumo da lógica do inversor de string:
+
+- É criado um novo array e a cada passo ele é preenchido de trás para frente, até que todos os caracteres do array anterior tenham sido copiados;
+
+- No final, o array montado conterá a string invertida;
+
 Para rodar a aplicação de lógica, abrir o terminal e:
 
 ```
